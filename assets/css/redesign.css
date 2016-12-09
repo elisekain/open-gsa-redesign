@@ -1,0 +1,24 @@
+/* PREVIEW CARDS */
+.preview-card{
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    overflow: hidden;
+}
+
+.preview-card h4{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.preview-card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    cursor: pointer;
+}
+
+.card-content{
+    padding: 15px;
+}
